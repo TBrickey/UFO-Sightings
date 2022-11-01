@@ -1,4 +1,4 @@
-// import the data from data.js
+// import the data from data.js 11.2.4
 const tableData = data;
 // Reference the HTML table using d3 11.2.4
 var tbody = d3.select("tbody");
