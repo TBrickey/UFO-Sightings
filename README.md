@@ -2,6 +2,8 @@
 
 ## Overview of Project
 
+Adding table filters for city, state, country, and shape to provide an in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. 
+
 ## Results
 
 To search, select one a search box on the left. Enter the value you like to filter, such as wa in ‘Enter State’ search box and hit enter.
