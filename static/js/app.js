@@ -52,15 +52,19 @@ function updateFilters() {
   // 7. Use this function to filter the table when data is entered.
   function filterTable() {
   
-    // 8. Set the filtered data to the tableData. ???
+    // 8. Set the filtered data to the tableData. ?
     let filteredData = tableData;
   
     // 9. Loop through all of the filters and keep any data that
-    // matches the filter values ??? 11.5.4
+    // matches the filter values ??? 11.5.4 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries 
+    //filteredData = filteredData.filter(row => row.datetime === date);  }
+    //Object.entries(frequencyCounts).forEach(([key, value]) => {
+    //Object.entries(filters).forEach(([key, value]) => {
+            //console.log(`${key} ${value}`); //});
     Object.entries(filters).forEach(([key, value]) => {
-        filteredData = filteredData.filter(row => row[key] === value);
+        filteredData = filteredData.filter(row => row[key] == value);
     });
-  
+
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
   }
