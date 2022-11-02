@@ -6,6 +6,8 @@
 
 To search, select one a search box on the left. Enter the value you like to filter, such as wa in ‘Enter State’ search box and hit enter.
 
+![TBrickey]( https://github.com/TBrickey/UFO-Sightings/blob/main/static/images/search%20box%20wa.png)
+
 ![TBrickey]( https://github.com/TBrickey/UFO-Sightings/blob/main/static/images/Screenshot%20UFO%20sightings%20search%20wa.png)
 
 ## Summary
