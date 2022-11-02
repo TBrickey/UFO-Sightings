@@ -1,7 +1,10 @@
 # UFO-Sightings
 
 ##Overview of Project
+
 ##Results
+
+To search, select one a search box on the left. Enter the value you like to filter, such as wa in ‘Enter State’ search box and hit enter.
 
 ##Summary
 
