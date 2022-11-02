@@ -46,7 +46,6 @@ function updateFilters() {
              
     // 6. Call function to apply all filters and rebuild the table
     filterTable();
-  
   }
   
   // 7. Use this function to filter the table when data is entered.
@@ -57,10 +56,10 @@ function updateFilters() {
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values ??? 11.5.4 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries 
-    //filteredData = filteredData.filter(row => row.datetime === date);  }
     //Object.entries(frequencyCounts).forEach(([key, value]) => {
     //Object.entries(filters).forEach(([key, value]) => {
             //console.log(`${key} ${value}`); //});
+            //filteredData = filteredData.filter(row => row.datetime === date);  }
     Object.entries(filters).forEach(([key, value]) => {
         filteredData = filteredData.filter(row => row[key] == value);
     });
